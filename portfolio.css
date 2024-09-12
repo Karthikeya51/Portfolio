@@ -1,0 +1,248 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-heading{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+.items-nav{
+    color: white;
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: bold;
+    padding-left: 15px;
+    
+    text-decoration: none;
+    
+}
+
+.bg-section{
+    background-color: black;
+}
+
+
+.home-greeting{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-para{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.name-style{
+    color: rgb(72, 72, 247);
+}
+.home-des{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home-img{
+    height: 600px;
+    border-radius: 100px;
+}
+
+.about-section-img{
+    height: 300px;
+    border-radius: 20px;
+}
+.about-section-img-des{
+    color: rgb(175, 174, 174);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.about-sec-heading{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-sec-para{
+    color: grey;
+    font-size: 18px;
+}
+
+.about-sec-para-span{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.about-sec-skills-loader{
+    color:rgb(72, 72, 247) ;
+}
+.about-sec-project-span{
+    color:rgb(72, 72, 247) ;
+}
+.about-sec-project-des{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-sec-project-btn{
+    background-color:rgb(72, 72, 247) ;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 140px;
+    height: 60px;
+    border-style: solid;
+    border-width: 0px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.resume-sec-heading{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.resume-sec-heading-para{
+    color: grey;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+.resume-sec-exp-hr{
+    color: rgb(72, 72, 247);
+    height: 3px;
+    border-width: 5px;
+}
+.resume-sec-experience-card{
+    background-color: rgb(40,40,40);
+    padding: 30px;
+    border-radius: 10px;
+}
+.resume-sec-experience-card-heading{
+    color: rgb(72, 72, 247) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.resume-sec-experience-card-para{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resume-sec-experience-card-inten{
+    color: grey;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resume-sec-experience-card-des{
+    color: grey;
+}
+
+
+.contact-sec-icon{
+    background-color: rgb(40,40,40);
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    color: rgb(72, 72, 247);
+    padding: 25px;
+    border-radius: 300px;
+    text-align: center;
+}
+.contact-sec-icon-heading{
+    color: white;
+    font-size: 22px;
+}
+.contact-sec-icon-para{
+    color: white;
+    font-size: 18px;
+}
+
+/* From Uiverse.io by david-mohseni */ 
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 120px;
+    width: 100%;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }
+  
